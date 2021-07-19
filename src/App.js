@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.scss'
+import './App.css'
 import Row from './components/Row'
 import { requests } from './request'
 
