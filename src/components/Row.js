@@ -4,7 +4,8 @@ import './Row.scss'
 
 export const Row = ({ title, fetchUrl }) => {
   const [movies, setMovies] = useState([])
-  const base_url = 'https://image.tmdb.org/t/p/original'
+  const baseUrl = 'https://image.tmdb.org/t/p/original'
+  const noImage = `${process.env.PUBLIC_URL}/no_image.jpeg`
 
   useEffect(() => {
     async function fetchData() {
@@ -23,7 +24,7 @@ export const Row = ({ title, fetchUrl }) => {
           < img
             key={movie.id}
             className="Row-poster"
-            src={`${base_url}${movie.backdrop_path}`}
+            src={movie.backdrop_path ? `${baseUrl}${movie.backdrop_path}` : noImage}
             alt={movie.name}
           />
         ))}
