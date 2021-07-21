@@ -1,12 +1,12 @@
 .Row {
-  margin-left: 20px;
+  margin-left: 24px;
   color: #000;
 
   &-posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 24px;
 
     &::-webkit-scrollbar {
       display: none;
@@ -17,11 +17,11 @@
     object-fit: contain;
     width: 100%;
     max-height: 100px;
-    margin: 10px;
+    margin: 8px;
     transition: transform 450ms;
 
     &-large {
-      max-height: 250px;
+      max-height: 240px;
 
       &:hover {
         transform: scale(1.09);
