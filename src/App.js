@@ -1,11 +1,13 @@
 import './App.css'
 import Banner from './components/Banner'
+import Navbar from './components/Navbar'
 import Row from './components/Row'
 import { requests } from './request'
 
 const App = () => {
   return (
     <>
+      <Navbar />
       <Banner />
       <div className="App">
         <Row
