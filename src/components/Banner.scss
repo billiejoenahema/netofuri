@@ -1,5 +1,5 @@
 .Banner {
-  color: #2f4767;
+  color: #fff;
   object-fit: contain;
   height: 448px;
 
@@ -7,6 +7,7 @@
     margin-left: 30px;
     padding-top: 140px;
     height: 190px;
+    text-shadow: 1px 1px 2px #000;
   }
 
   &-title {
