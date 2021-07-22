@@ -11,14 +11,13 @@ const Banner = () => {
   useEffect(() => {
     const fetchData = async () => {
       const request = await instance.get(requests.fetchNetflixOriginals)
-      console.log(request.data.result)
 
       //apiからランダムで値を取得
       setMovie(
         request.data.results[
         Math.floor(Math.random() * request.data.results.length - 1)
         ]
-      );
+      )
       return request
     }
     fetchData()
@@ -36,16 +35,13 @@ const Banner = () => {
       <div className="Banner-contents">
         <h1 className="banner-title">
           {movie?.title || movie?.name || movie?.original_name}
-          {/* BannerTitle */}
         </h1>
         <div className="Banner-buttons">
           <button className="Banner-button">Play</button>
           <button className="Banner-button">My List</button>
         </div>
-
         <h1 className="Banner-description">{truncateDescription(movie?.overview, 150)}</h1>
       </div>
-
       <div className="Banner-fadeBottom" />
     </header>
   )
