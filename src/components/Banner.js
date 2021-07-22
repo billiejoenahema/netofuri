@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
 import { requests } from '../request'
 import { truncateDescription } from '../truncateDescription'
+import instance from '../axios'
 import './Banner.scss'
 
 
@@ -10,7 +10,7 @@ const Banner = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const request = await axios.get(requests.fetchNetflixOriginals)
+      const request = await instance.get(requests.fetchNetflixOriginals)
       console.log(request.data.result)
 
       //apiからランダムで値を取得
@@ -23,7 +23,6 @@ const Banner = () => {
     }
     fetchData()
   }, [])
-  console.log(movie)
 
   return (
     <header
@@ -37,6 +36,7 @@ const Banner = () => {
       <div className="Banner-contents">
         <h1 className="banner-title">
           {movie?.title || movie?.name || movie?.original_name}
+          {/* BannerTitle */}
         </h1>
         <div className="Banner-buttons">
           <button className="Banner-button">Play</button>
