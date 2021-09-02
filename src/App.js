@@ -1,10 +1,11 @@
+import React from 'react'
 import './App.css'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Row from './components/Row'
 import { requests } from './request'
 
-const App = () => {
+const App = React.memo(() => {
   return (
     <>
       <Navbar />
@@ -24,6 +25,6 @@ const App = () => {
       </div>
     </>
   )
-}
+})
 
 export default App
