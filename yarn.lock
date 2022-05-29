@@ -2637,19 +2637,21 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
-"@testing-library/react@13.3.0":
-  version "13.3.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.3.0.tgz#bf298bfbc5589326bbcc8052b211f3bb097a97c5"
-  integrity sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ==
+"@testing-library/react@13.2.0":
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-13.2.0.tgz#2db00bc94d71c4e90e5c25582e90a650ae2925bf"
+  integrity sha512-Bprbz/SZVONCJy5f7hcihNCv313IJXdYiv0nSJklIs1SQCIHHNlnGNkosSXnGZTmesyGIcBGNppYhXcc11pb7g==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.5.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@14.2.0":
-  version "14.2.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.2.0.tgz#8293560f8f80a00383d6c755ec3e0b918acb1683"
-  integrity sha512-+hIlG4nJS6ivZrKnOP7OGsDu9Fxmryj9vCl8x0ZINtTJcCHs2zLsYif5GzuRiBF2ck5GZG2aQr7Msg+EHlnYVQ==
+"@testing-library/user-event@12.8.3":
+  version "12.8.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-12.8.3.tgz#1aa3ed4b9f79340a1e1836bc7f57c501e838704a"
+  integrity sha512-IR0iWbFkgd56Bu5ZI/ej8yQwrkCv8Qydx6RzwbKz9faXazR/+5tvYKsZQgyXJiwgpcva127YO6JcWy7YlCfofQ==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
 
 "@tootallnate/once@1":
   version "1.1.2"
@@ -2859,7 +2861,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@^26.0.15":
+"@types/jest@*", "@types/jest@26.0.24":
   version "26.0.24"
   resolved "https://registry.npmjs.org/@types/jest/-/jest-26.0.24.tgz"
   integrity sha512-E/X5Vib8BWqZNRlDxj9vYXhsDwPYbPINqKF9BsnSoon4RQ0D9moEuLD8txgyypFLH7J4+Lho9Nr/c8H0Fi+17w==
@@ -2914,7 +2916,7 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-12.20.16.tgz"
   integrity sha512-6CLxw83vQf6DKqXxMPwl8qpF8I7THFZuIwLt4TnNsumxkp1VsRZWT8txQxncT/Rl2UojTsFzWgDG4FRMwafrlA==
 
-"@types/node@^12.0.0":
+"@types/node@12.20.52":
   version "12.20.52"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.52.tgz#2fd2dc6bfa185601b15457398d4ba1ef27f81251"
   integrity sha512-cfkwWw72849SNYp3Zx0IcIs25vABmFh73xicxhCkTcvtZQeIez15PpwQN8fY3RD7gv1Wrxlc9MEtfMORZDEsGw==
@@ -2954,12 +2956,12 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@18.0.5":
-  version "18.0.5"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.5.tgz#330b2d472c22f796e5531446939eacef8378444a"
-  integrity sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==
+"@types/react-dom@17.0.17":
+  version "17.0.17"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
+  integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
   dependencies:
-    "@types/react" "*"
+    "@types/react" "^17"
 
 "@types/react-dom@^18.0.0":
   version "18.0.4"
@@ -2977,7 +2979,7 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@^17.0.0":
+"@types/react@17.0.45", "@types/react@^17":
   version "17.0.45"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.45.tgz#9b3d5b661fd26365fefef0e766a1c6c30ccf7b3f"
   integrity sha512-YfhQ22Lah2e3CHPsb93tRwIGNiSwkuz1/blk4e6QrWS0jQzCSNbGLtOEYhPg02W0yGTTmpajp7dCTbBAMN3qsg==
@@ -11486,9 +11488,9 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^17.0.2:
+react-dom@17.0.2:
   version "17.0.2"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
   dependencies:
     loose-envify "^1.1.0"
@@ -11575,7 +11577,7 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-youtube@^7.13.1:
+react-youtube@7.14.0:
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/react-youtube/-/react-youtube-7.14.0.tgz#0505d86491521ca94ef0afb74af3f7936dc7bc86"
   integrity sha512-SUHZ4F4pd1EHmQu0CV0KSQvAs5KHOT5cfYaq4WLCcDbU8fBo1ouTXaAOIASWbrz8fHwg+G1evfoSIYpV2AwSAg==
@@ -11584,9 +11586,9 @@ react-youtube@^7.13.1:
     prop-types "15.7.2"
     youtube-player "5.5.2"
 
-react@^17.0.2:
+react@17.0.2:
   version "17.0.2"
-  resolved "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
   dependencies:
     loose-envify "^1.1.0"
